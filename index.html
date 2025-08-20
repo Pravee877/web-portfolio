@@ -1,1 +1,795 @@
+Conversation opened. 1 read message.
 
+Skip to content
+Using Gmail with screen readers
+in:spam 
+1 of 9
+html file
+Spam
+D Sujeeth <sujeeth.m31@gmail.com>
+Attachments
+21:51 (3 minutes ago)
+to me
+
+This message might be dangerous
+Messages like this one were used to steal personal information. Don't click links, download attachments or reply with personal information.
+
+Looks safe
+
+ One attachment
+  •  Scanned by Gmail
+Downloading this attachment is disabled. This email has been identified as phishing. If you want to download it and you trust this message, click 'Not spam' in the banner above.
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Praveena J - Portfolio</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            scroll-behavior: smooth;
+        }
+
+        /* Header */
+        header {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(20px);
+            z-index: 1000;
+            padding: 1rem 0;
+            box-shadow: 0 2px 20px rgba(0,0,0,0.1);
+        }
+
+        nav {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 2rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: #4f46e5;
+        }
+
+        .nav-links {
+            display: flex;
+            list-style: none;
+            gap: 2rem;
+        }
+
+        .nav-links a {
+            text-decoration: none;
+            color: #333;
+            font-weight: 500;
+            transition: color 0.3s ease;
+        }
+
+        .nav-links a:hover {
+            color: #4f46e5;
+        }
+
+        /* Main Content */
+        main {
+            margin-top: 80px;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 2rem;
+        }
+
+        section {
+            padding: 4rem 0;
+        }
+
+        .section-title {
+            font-size: 2.5rem;
+            text-align: center;
+            margin-bottom: 3rem;
+            color: #1f2937;
+        }
+
+        /* Hero Section */
+        .hero {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 6rem 0;
+            text-align: center;
+        }
+
+        .hero-content {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .profile-img {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-bottom: 2rem;
+            border: 4px solid rgba(255,255,255,0.3);
+        }
+
+        .hero h1 {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+            font-weight: 700;
+        }
+
+        .hero .subtitle {
+            font-size: 1.2rem;
+            margin-bottom: 1rem;
+            opacity: 0.9;
+        }
+
+        .hero .description {
+            font-size: 1rem;
+            margin-bottom: 2rem;
+            opacity: 0.8;
+            max-width: 600px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .cta-buttons {
+            display: flex;
+            justify-content: center;
+            gap: 1rem;
+            flex-wrap: wrap;
+        }
+
+        .btn {
+            padding: 0.8rem 2rem;
+            border: none;
+            border-radius: 50px;
+            font-weight: 600;
+            text-decoration: none;
+            transition: all 0.3s ease;
+            cursor: pointer;
+        }
+
+        .btn-primary {
+            background: #10b981;
+            color: white;
+        }
+
+        .btn-secondary {
+            background: rgba(255,255,255,0.2);
+            color: white;
+            border: 2px solid rgba(255,255,255,0.3);
+        }
+
+        .btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+        }
+
+        /* About Section */
+        .about {
+            background: #f8fafc;
+        }
+
+        .about-grid {
+            display: grid;
+            grid-template-columns: 2fr 1fr;
+            gap: 4rem;
+            align-items: center;
+        }
+
+        .about-text {
+            font-size: 1.1rem;
+            line-height: 1.8;
+            color: #6b7280;
+        }
+
+        .about-text p {
+            margin-bottom: 1.5rem;
+        }
+
+        .stats-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 1.5rem;
+        }
+
+        .stat-card {
+            background: white;
+            padding: 2rem;
+            border-radius: 15px;
+            text-align: center;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+            transition: transform 0.3s ease;
+        }
+
+        .stat-card:hover {
+            transform: translateY(-5px);
+        }
+
+        .stat-number {
+            font-size: 2rem;
+            font-weight: 700;
+            color: #4f46e5;
+            margin-bottom: 0.5rem;
+        }
+
+        .stat-label {
+            color: #6b7280;
+            font-weight: 500;
+        }
+
+        /* Skills Section */
+        .skills-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+        }
+
+        .skill-card {
+            background: white;
+            padding: 2rem;
+            border-radius: 15px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+            transition: all 0.3s ease;
+        }
+
+        .skill-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+        }
+
+        .skill-card h3 {
+            font-size: 1.3rem;
+            margin-bottom: 1rem;
+            color: #4f46e5;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .skill-tags {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.5rem;
+        }
+
+        .skill-tag {
+            background: linear-gradient(135deg, #4f46e5, #06b6d4);
+            color: white;
+            padding: 0.4rem 1rem;
+            border-radius: 20px;
+            font-size: 0.9rem;
+            font-weight: 500;
+        }
+
+        /* Projects Section */
+        .projects {
+            background: #f8fafc;
+        }
+
+        .projects-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: 2rem;
+        }
+
+        .project-card {
+            background: white;
+            border-radius: 15px;
+            padding: 2rem;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+            transition: all 0.3s ease;
+            position: relative;
+        }
+
+        .project-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 4px;
+            background: linear-gradient(135deg, #4f46e5, #06b6d4);
+            border-radius: 15px 15px 0 0;
+        }
+
+        .project-card:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 12px 30px rgba(0,0,0,0.15);
+        }
+
+        .project-title {
+            font-size: 1.3rem;
+            font-weight: 600;
+            margin-bottom: 1rem;
+            color: #1f2937;
+        }
+
+        .project-description {
+            color: #6b7280;
+            margin-bottom: 1.5rem;
+            line-height: 1.6;
+        }
+
+        .project-tech {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.5rem;
+        }
+
+        .tech-tag {
+            background: rgba(79, 70, 229, 0.1);
+            color: #4f46e5;
+            padding: 0.3rem 0.8rem;
+            border-radius: 15px;
+            font-size: 0.8rem;
+            font-weight: 500;
+        }
+
+        /* Education Section */
+        .education-grid {
+            display: grid;
+            gap: 2rem;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .education-card {
+            background: white;
+            padding: 2rem;
+            border-radius: 15px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+            border-left: 4px solid #4f46e5;
+            transition: all 0.3s ease;
+        }
+
+        .education-card:hover {
+            transform: translateX(10px);
+            box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+        }
+
+        .education-degree {
+            font-size: 1.3rem;
+            font-weight: 600;
+            color: #1f2937;
+            margin-bottom: 0.5rem;
+        }
+
+        .education-school {
+            font-weight: 500;
+            color: #4f46e5;
+            margin-bottom: 0.5rem;
+        }
+
+        .education-period {
+            color: #6b7280;
+            margin-bottom: 1rem;
+        }
+
+        .education-grade {
+            background: linear-gradient(135deg, #10b981, #06b6d4);
+            color: white;
+            padding: 0.4rem 1rem;
+            border-radius: 20px;
+            font-weight: 600;
+            display: inline-block;
+        }
+
+        /* Contact Section */
+        .contact {
+            background: linear-gradient(135deg, #4f46e5, #06b6d4);
+            color: white;
+            text-align: center;
+        }
+
+        .contact-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 2rem;
+            margin-top: 2rem;
+        }
+
+        .contact-item {
+            background: rgba(255,255,255,0.1);
+            padding: 2rem;
+            border-radius: 15px;
+            transition: all 0.3s ease;
+        }
+
+        .contact-item:hover {
+            background: rgba(255,255,255,0.2);
+            transform: translateY(-5px);
+        }
+
+        .contact-item i {
+            font-size: 2rem;
+            margin-bottom: 1rem;
+            color: #10b981;
+        }
+
+        .contact-item h3 {
+            margin-bottom: 0.5rem;
+        }
+
+        .contact-item a {
+            color: white;
+            text-decoration: none;
+        }
+
+        /* Footer */
+        footer {
+            background: #1f2937;
+            color: white;
+            text-align: center;
+            padding: 2rem 0;
+        }
+
+        /* Mobile Responsive */
+        @media (max-width: 768px) {
+            .nav-links {
+                display: none;
+            }
+
+            .hero h1 {
+                font-size: 2rem;
+            }
+
+            .about-grid {
+                grid-template-columns: 1fr;
+                gap: 2rem;
+            }
+
+            .stats-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .section-title {
+                font-size: 2rem;
+            }
+
+            .cta-buttons {
+                flex-direction: column;
+                align-items: center;
+            }
+        }
+
+        /* Smooth animations */
+        .fade-in {
+            opacity: 0;
+            transform: translateY(30px);
+            transition: all 0.8s ease;
+        }
+
+        .fade-in.visible {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <nav>
+            <div class="logo">Praveena J</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Hero Section -->
+        <section id="home" class="hero">
+            <div class="container">
+                <div class="hero-content">
+                    <img src="https://sample-test-sujeeth-random.s3.ap-south-1.amazonaws.com/praveena-formal" alt="Praveena J" class="profile-img">
+                    <h1>Praveena J</h1>
+                    <p class="subtitle">Electronics & Communication Engineering Student</p>
+                    <p class="description">
+                        Passionate about emerging technologies, AI, and web development. 
+                        Committed to creating innovative solutions and delivering measurable value.
+                    </p>
+                    <div class="cta-buttons">
+                        <a href="#projects" class="btn btn-primary">View My Work</a>
+                        <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about">
+            <div class="container">
+                <h2 class="section-title fade-in">About Me</h2>
+                <div class="about-grid">
+                    <div class="about-text fade-in">
+                        <p>
+                            I'm a dedicated Electronics and Communication Engineering student at SNS College of Technology 
+                            with an exceptional CGPA of 9.59. My passion lies in mastering emerging technologies and 
+                            transforming innovative ideas into practical solutions.
+                        </p>
+                        <p>
+                            From developing AI-powered chatbots to creating IoT systems, I excel at bridging the gap 
+                            between complex technical concepts and user-friendly applications. My experience spans 
+                            web development, machine learning, and embedded systems.
+                        </p>
+                        <p>
+                            I thrive in collaborative environments and am always eager to take on new challenges. 
+                            Whether it's participating in hackathons or leading projects, I'm committed to delivering 
+                            excellence and continuous learning.
+                        </p>
+                    </div>
+                    <div class="stats-grid fade-in">
+                        <div class="stat-card">
+                            <div class="stat-number">9.59</div>
+                            <div class="stat-label">CGPA</div>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-number">6+</div>
+                            <div class="stat-label">Major Projects</div>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-number">10+</div>
+                            <div class="stat-label">Certifications</div>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-number">5+</div>
+                            <div class="stat-label">Events</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="skills">
+            <div class="container">
+                <h2 class="section-title fade-in">Skills & Technologies</h2>
+                <div class="skills-grid">
+                    <div class="skill-card fade-in">
+                        <h3><i class="fas fa-code"></i> Programming Languages</h3>
+                        <div class="skill-tags">
+                            <span class="skill-tag">Python</span>
+                            <span class="skill-tag">JavaScript</span>
+                            <span class="skill-tag">HTML</span>
+                            <span class="skill-tag">CSS</span>
+                            <span class="skill-tag">SQL</span>
+                        </div>
+                    </div>
+                    <div class="skill-card fade-in">
+                        <h3><i class="fas fa-tools"></i> Tools & Frameworks</h3>
+                        <div class="skill-tags">
+                            <span class="skill-tag">Bootstrap</span>
+                            <span class="skill-tag">Visual Studio Code</span>
+                            <span class="skill-tag">GitHub</span>
+                            <span class="skill-tag">N8N</span>
+                            <span class="skill-tag">MySQL</span>
+                        </div>
+                    </div>
+                    <div class="skill-card fade-in">
+                        <h3><i class="fas fa-lightbulb"></i> Core Competencies</h3>
+                        <div class="skill-tags">
+                            <span class="skill-tag">Problem Solving</span>
+                            <span class="skill-tag">Critical Thinking</span>
+                            <span class="skill-tag">Leadership</span>
+                            <span class="skill-tag">Team Collaboration</span>
+                            <span class="skill-tag">Design Thinking</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="projects">
+            <div class="container">
+                <h2 class="section-title fade-in">Featured Projects</h2>
+                <div class="projects-grid">
+                    <div class="project-card fade-in">
+                        <h3 class="project-title">AI Language Learning Chatbot</h3>
+                        <p class="project-description">
+                            Built an intelligent chatbot using N8N with real-time lessons, vocabulary tracking, 
+                            pronunciation support, and comprehensive progress monitoring for enhanced learning experience.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">N8N</span>
+                            <span class="tech-tag">AI/ML</span>
+                            <span class="tech-tag">Chatbot</span>
+                            <span class="tech-tag">NLP</span>
+                        </div>
+                    </div>
+                    <div class="project-card fade-in">
+                        <h3 class="project-title">Multi-Domain Web Interfaces</h3>
+                        <p class="project-description">
+                            Designed and developed responsive web interfaces for multiple sectors including fitness, 
+                            e-commerce, food service, and hospitality with focus on user experience and accessibility.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">HTML/CSS</span>
+                            <span class="tech-tag">JavaScript</span>
+                            <span class="tech-tag">Bootstrap</span>
+                            <span class="tech-tag">Responsive Design</span>
+                        </div>
+                    </div>
+                    <div class="project-card fade-in">
+                        <h3 class="project-title">Geolocation Attendance System</h3>
+                        <p class="project-description">
+                            Developed a GPS-based attendance tracking system that automates location-verified 
+                            check-ins and check-outs with real-time monitoring and reporting capabilities.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">GPS API</span>
+                            <span class="tech-tag">JavaScript</span>
+                            <span class="tech-tag">Real-time Tracking</span>
+                            <span class="tech-tag">Geolocation</span>
+                        </div>
+                    </div>
+                    <div class="project-card fade-in">
+                        <h3 class="project-title">Smart Gas Monitoring System</h3>
+                        <p class="project-description">
+                            Created a real-time gas leakage detection system with continuous monitoring, 
+                            instant alert notifications, and safety protocols for residential and industrial use.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">IoT</span>
+                            <span class="tech-tag">Sensors</span>
+                            <span class="tech-tag">Real-time Monitoring</span>
+                            <span class="tech-tag">Safety Systems</span>
+                        </div>
+                    </div>
+                    <div class="project-card fade-in">
+                        <h3 class="project-title">DTMF Home Automation</h3>
+                        <p class="project-description">
+                            Engineered a cost-effective home automation system using DTMF technology to enable 
+                            remote control of household devices through phone tones and voice commands.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">DTMF</span>
+                            <span class="tech-tag">Home Automation</span>
+                            <span class="tech-tag">Electronics</span>
+                            <span class="tech-tag">Remote Control</span>
+                        </div>
+                    </div>
+                    <div class="project-card fade-in">
+                        <h3 class="project-title">Fishermen Border Alert System</h3>
+                        <p class="project-description">
+                            Developed an RF-based maritime safety system that provides real-time border alerts 
+                            to fishermen, preventing accidental boundary crossings and enhancing maritime security.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">RF Technology</span>
+                            <span class="tech-tag">Maritime Safety</span>
+                            <span class="tech-tag">Alert Systems</span>
+                            <span class="tech-tag">GPS</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Education Section -->
+        <section id="education" class="education">
+            <div class="container">
+                <h2 class="section-title fade-in">Education</h2>
+                <div class="education-grid">
+                    <div class="education-card fade-in">
+                        <div class="education-degree">Bachelor of Engineering - Electronics and Communication</div>
+                        <div class="education-school">SNS College of Technology, Coimbatore</div>
+                        <div class="education-period">November 2022 - June 2026</div>
+                        <div class="education-grade">CGPA: 9.59/10</div>
+                    </div>
+                    <div class="education-card fade-in">
+                        <div class="education-degree">Higher Secondary Certificate</div>
+                        <div class="education-school">Bharathiyar Matric Higher Secondary School, Salem</div>
+                        <div class="education-period">June 2020 - May 2022</div>
+                        <div class="education-grade">86.33%</div>
+                    </div>
+                    <div class="education-card fade-in">
+                        <div class="education-degree">Secondary School Certificate</div>
+                        <div class="education-school">Bharathiyar Matric Higher Secondary School, Salem</div>
+                        <div class="education-period">June 2019 - May 2020</div>
+                        <div class="education-grade">91.60%</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact">
+            <div class="container">
+                <h2 class="section-title fade-in">Let's Connect</h2>
+                <p class="fade-in">Ready to collaborate on innovative projects or discuss opportunities</p>
+                <div class="contact-grid">
+                    <div class="contact-item fade-in">
+                        <i class="fas fa-envelope"></i>
+                        <h3>Email</h3>
+                        <a href="mailto:praveena2005.j@gmail.com">praveena2005.j@gmail.com</a>
+                    </div>
+                    <div class="contact-item fade-in">
+                        <i class="fas fa-phone"></i>
+                        <h3>Phone</h3>
+                        <a href="tel:+919787079136">+91 9787079136</a>
+                    </div>
+                    <div class="contact-item fade-in">
+                        <i class="fab fa-linkedin"></i>
+                        <h3>LinkedIn</h3>
+                        <a href="https://linkedin.com/in/praveena-jayakumar" target="_blank">Connect with me</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Praveena J. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        // Smooth scrolling for navigation links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+
+        // Scroll animations
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -100px 0px'
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('visible');
+                }
+            });
+        }, observerOptions);
+
+        document.querySelectorAll('.fade-in').forEach(el => {
+            observer.observe(el);
+        });
+
+        // Navbar scroll effect
+        window.addEventListener('scroll', () => {
+            const header = document.querySelector('header');
+            if (window.scrollY > 100) {
+                header.style.background = 'rgba(255, 255, 255, 0.98)';
+            } else {
+                header.style.background = 'rgba(255, 255, 255, 0.95)';
+            }
+        });
+    </script>
+</body>
+</html>
+test.html
+Displaying test.html.
